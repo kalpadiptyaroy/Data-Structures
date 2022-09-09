@@ -1,10 +1,15 @@
 # Data-Structures
 All Interesting Stuff Here!
 
-Here, we mainly have two important things. 
-1. The Binary Search Tree, which I have implemented using java. And it has a corresponding Node class defines a node completely.
-2. DetectCircullar.c is a C program that detects whether the last node is accidentally pointing to any particular node of the same given list.
-    Now, for detecting this circullar anomaly, I have used the concept of no. of nodes traversed to identify the circullar linked node.
-    But, some other possible ways are: we can keep a variable length, that keeps record of no. of insertions, so that we can detect the anomally by
-    using the idea that no. of traversals can never be greater than no. of insertions.
-    Another, way is to point the last node by an external pointer. Say 'end' 
+## QuickSort
+
+This is a simple C program implementing quicksort using iterative approach. We are simply sorting integers stored in an array. Detailed comments are added with the code to give most clarity to the algorithm.
+
+## GoodNode
+
+#### 1448. Count Good Nodes in Binary Tree - LeetCode Problem
+
+Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X.
+Return the number of good nodes in the binary tree.
+
+![Tree](https://assets.leetcode.com/uploads/2020/04/02/test_sample_1.png)
